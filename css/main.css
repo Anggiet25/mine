@@ -1476,6 +1476,30 @@ body {
     transform: rotate(-70deg) rotateY(30deg) scale(0);
   }
 }
+.btn-back {
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1em;
+  font-family: Arial, sans-serif;
+  color: #fff;
+  background-color: #7873f5;
+  border: 2px solid #ff6ec4;
+  border-radius: 25px;
+  text-decoration: none;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-back:hover {
+  background-color: #ff6ec4;
+  border-color: #7873f5;
+  transform: scale(1.1);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
 @-webkit-keyframes grow-flower-tree {
   0% {
     height: 0;
